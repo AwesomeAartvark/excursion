@@ -1,6 +1,5 @@
 html {
   font-family: Verdana;
-  font-weight: normal;
   color: white;
 }
 
@@ -11,7 +10,7 @@ body {
 
 h1 {
   font-size: 50px;
-  color: White;
+  font-weight: normal;
 }
 
 h2 {
@@ -27,4 +26,8 @@ p {
 a {
   font-size: 16px;
   color: aquamarine;
+}
+
+#copyright {
+  text-align: right;
 }
