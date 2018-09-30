@@ -13,8 +13,10 @@
     <p>
       <a href="#">Download Excursion (Coming soon!)</a>
     </p>
-    <video src="./resources/videos/excursion.mp4" autoplay loop>
-      Your video does not support the this video player
+    <!-- Video would not autoplay in Chrome -->
+    <!-- To get video to autoplay in chrome using video tag, must use 'autoplay muted'-->
+    <video loop autoplay muted>
+      <source type="video/mp4" src="./resources/videos/excursion.mp4" />
     </video>
 
     <!-- Description -->
